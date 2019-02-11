@@ -11,6 +11,19 @@
 
 # License #
 
+
+## Installation
+
+Download zip file or clone a repository with git clone <url>. 
+
+```bash
+
+Clone using version control:
+git clone https://github.com/Abenezerbeyene/ReadItStore.git
+Xampp run the file in local host
+* You may want to use Xampp tool, since this project is developed using php. 
+```
+
 Openscoring is dual-licensed under the [GNU Affero General Public License (AGPL) version 3.0] (http://www.gnu.org/licenses/agpl-3.0.html) and a commercial license.
 
 # Additional information #
