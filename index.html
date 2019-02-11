@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reades Store</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+  <section class="shop">
+  <div class="shop__header">
+    <h1 class="shop__title">Book Store</h1>
+      
+    
+  </div>
+  <!-- <div class="accordion">
+<h2><a href="#">About</a></h2>
+<div class="inner">
+  <p>This webpage is used to buy this book using validation of the shipping information. the webpage also prints a receipt once the user has entered their validated information. it has two different validations, one in javascript and the other in php.</p>
+</div> -->
+ 
+</div>
+  <div class="shop__products">
+    <div class="products">
+      <div class="products__item">
+
+        <article class="product">
+          <h1 class="product__title">The Death Of Truth</h1>
+          <img src="img/book1.jpg">
+          <p class="product__text"> $20.99 </p>
+          <form  action="Form.php" method="POST">
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" name="Quantity" id="number" value="0" />
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div><br><br>
+            <!-- <input type="submit" value="Submit"> -->
+
+            <button type="submit">Buy Now</button>
+           
+          </form>
+          </p>
+        </article>
+
+      </div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script>
+  
+  $(document).ready(function(){
+    
+  var allPanels = $('.accordion > .inner').hide();
+  
+
+  $('.accordion > h2 > a').click(function() {
+     $(this).slideDown(500);
+    $(this).toggleClass('selected');
+  
+ 
+    $(this).parent().next().slideToggle(function() { 
+      });
+    return false;
+  });
+});
+</script> -->
+</html>
+
+<!-- tax 
+Newfoundland 15%
+Prince Edward Island 15%
+Nova Scotia 15%
+New Brunswick 15%
+Quebec* 14.975% 
+Ontario** 13%
+Manitoba 13%
+Saskatchewan 11%
+Alberta 5%
+British Columbia 12%
+-->

@@ -1,0 +1,234 @@
+
+body {
+  background: #F3F3F3;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+img{
+  width: 200px;
+  height: 300px;
+}
+
+.shop__header {
+  box-sizing: border-box;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  display: inline-block;
+  background-color: #9BCEC9;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color:black;
+}
+button:hover {
+  background-color: #000;
+  color: white;
+}
+
+
+.shop__products {
+  padding-top: 70px;
+}
+
+.shop__title {
+  display: block;
+  margin: 0;
+  float: left;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.shop__text {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 20px 20px;
+
+}
+
+.products__item {
+  width: 290px;
+}
+
+.product {
+  background: #FFF;
+  padding: 30px 15px;
+  margin: 0 20px 20px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product__title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+.product__text {
+  margin: 0;
+}
+
+
+/* accourdion */
+
+
+.accordion H2 A{
+  padding: 10px 20px;
+  font-size: 0.9em;
+  background: #000;
+  border-bottom: 1px solid #E1E1E1;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0;
+  color: #fff;
+}
+.accordion H2{
+  margin: 0;
+
+}
+.accordion P {
+  margin: 24px 0;
+}
+.accordion
+{
+  padding-top: 7%;
+  margin-top: 34px;
+  width: 30%;
+  margin-left: 20px;
+}
+.inner{
+border:thin dotted #ccc;
+}
+.accordion + H1
+{
+  margin-top: 64px;
+}
+.accordion H2 A:before
+{
+  content: '+';
+  margin-right: 16px;
+  font-family: arial;
+  font-weight: normal;
+  width: 5px;
+  display: inline-block;
+}
+.accordion H2 A.selected:before
+{
+  content: '-';
+  margin-right: 16px;
+  font-family: arial;
+  font-weight: normal;
+
+  display: inline-block;
+}
+.accordion .inner
+{
+  padding: 10px 20px;
+  background:#ececec;
+  width:40%;
+}
+A.selected
+{
+  color: red !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+  padding-bottom: 8px; 
+
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #9BCEC9;
+}
+
+.value-button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 48%;
+  height: 40px;
+   
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    width: 10%;
+}
